@@ -1,7 +1,7 @@
 /*
     Filename: NORTHWIND_DATASET_PRACTICE_QUERY.sql
-    Author: RAVI CHANDRIKA B
-    Date: 08/04/2022
+    Author: Prakash Kotian
+    Date: 08/5/2022
     Description:This SQL file contains some queries for questions and answers on northwind dataset
 */
 
@@ -39,7 +39,7 @@ SELECT CompanyName, Fax, Phone, Country, HomePage
 FROM dbo.Suppliers
 ORDER BY Country DESC,CompanyName ASC
 
---7.	Create a report that shows CompanyName, ContactName of all customers from ‘Buenos Aires' only.
+--7.	Create a report that shows CompanyName, ContactName of all customers from â€˜Buenos Aires' only.
 SELECT CompanyName, ContactName
 FROM dbo.Customers
 WHERE City='Buenos Aires'
