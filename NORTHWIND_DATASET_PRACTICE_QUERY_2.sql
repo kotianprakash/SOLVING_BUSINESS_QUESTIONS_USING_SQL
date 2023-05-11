@@ -1,7 +1,7 @@
 /*
     Filename: NORTHWIND_DATASET_PRACTICE_QUERY_2.sql
-    Author: RAVI CHANDRIKA B
-    Date: 19/04/2022
+    Author: Prakash kotian
+    Date: 19/05/2022
     Description:This SQL file contains some queries for questions and answers on northwind dataset
 	From the book 57 beginning, intermediate, and advanced challenges for you to solve using a "learn-by-doing" approach
 	By Sylvia Moestl Vasilik
@@ -36,7 +36,7 @@ SELECT SupplierID,ContactName,ContactTitle
 FROM Suppliers
 WHERE ContactTitle <> 'Marketing Manager'
 
---6. Products with ìquesoî in ProductName
+--6. Products with ‚Äúqueso‚Äù in ProductName
 SELECT ProductID,ProductName
 FROM Products
 WHERE ProductName like '%queso%'
